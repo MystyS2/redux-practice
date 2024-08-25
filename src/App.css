@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Vibur&display=swap');
+
+.neonText {
+    color: #fff;
+    text-shadow:
+        0 0 5px #fff,
+        0 0 7px #fff,
+        0 0 15px #fff,
+        0 0 32px #ff3773,
+        0 0 70px #ff3773,
+        0 0 80px #ff3773,
+        0 0 92px #ff3773,
+        0 0 120px #ff3773;
+}
+
+h1 {
+    font-size: 6.2rem;
+    animation: pulsate 1.5s infinite alternate;
+    border: 0.2rem solid #fff;
+    border-radius: 2rem;
+    padding: 0.4em;
+    box-shadow: 0 0 .2rem #fff,
+        0 0 .2rem #fff,
+        0 0 2rem #ff3773,
+        0 0 0.8rem #ff3773,
+        0 0 2.8rem #ff3773,
+        inset 0 0 1.3rem #ff3773;
+}
+
+@keyframes pulsate {
+    100% {
+
+        text-shadow:
+            0 0 5px #fff,
+            0 0 7px #fff,
+            0 0 15px #fff,
+            0 0 32px #ff3773,
+            0 0 70px #ff3773,
+            0 0 80px #ff3773,
+            0 0 92px #ff3773,
+            0 0 120px #ff3773;
+
+    }
+
+    0% {
+
+        text-shadow:
+            0 0 2px #fff,
+            0 0 4px #fff,
+            0 0 6px #fff,
+            0 0 8px #ff3773,
+            0 0 15px #ff3773,
+            0 0 25px #ff3773,
+            0 0 40px #ff3773,
+            0 0 60px #ff3773;
+
+    }
+}

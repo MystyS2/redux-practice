@@ -7,10 +7,10 @@ function App() {
   const count = useSelector((state) => state.count);
   return (
     <div className="w-screen h-screen flex flex-col justify-center bg-red-200">
-      <div className="flex flex-col m-auto gap-10 bg-white p-20 rounded-xl max-sm:mx-2">
-        <div className="mx-auto font-medium text-sm text-pink-300">🩷내가 좋아하는 노래🩷</div>
-        <h1 className="mx-auto font-bold text-5xl max-sm:text-xl">🎵BPM 끌어올렷🔥</h1>
-        <h1 className="mx-auto font-bold text-5xl">{count} %</h1>
+      <div className="flex flex-col m-auto gap-10 bg-white p-20 rounded-xl max-sm:mx-2 shadow-2xl shadow-[#ff3773]/50">
+        <h1 className="mx-auto font-medium text-sm text-pink-300 neonText mb-4">🩷내가 좋아하는 노래🩷</h1>
+        <h2 className="mx-auto font-bold text-5xl max-sm:text-xl">🎵BPM 끌어올렷🔥</h2>
+        <h2 className="mx-auto font-bold text-5xl">{count} %</h2>
         <Progress
           aria-label="filling..."
           size="md"
