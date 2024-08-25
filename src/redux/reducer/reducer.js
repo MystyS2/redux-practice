@@ -16,6 +16,8 @@ function reducer(state = initialState, action) {
         return { ...state, isPlay: true};
     case "STOP":
         return { ...state, isPlay: false};
+    case "CHANGEIDX":
+        return { ...state, bgmIndex: action.payload.idx};
     default:
       return { ...state };
   }

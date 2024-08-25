@@ -8,7 +8,8 @@ function App() {
   return (
     <div className="w-screen h-screen flex flex-col justify-center bg-red-200">
       <div className="flex flex-col m-auto gap-10 bg-white p-20 rounded-xl max-sm:mx-2">
-        <h1 className="mx-auto font-bold text-5xl">🎵BPM 끌어올렷🔥</h1>
+        <div className="mx-auto font-medium text-sm text-pink-300">🩷내가 좋아하는 노래🩷</div>
+        <h1 className="mx-auto font-bold text-5xl max-sm:text-xl">🎵BPM 끌어올렷🔥</h1>
         <h1 className="mx-auto font-bold text-5xl">{count} %</h1>
         <Progress
           aria-label="filling..."
